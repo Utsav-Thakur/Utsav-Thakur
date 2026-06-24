@@ -78,5 +78,5 @@ current = {
 &nbsp;
 [![Gmail](https://img.shields.io/badge/Gmail-Mail%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:utsavkumarthakur.du.or.27@gmail.com)
 
-</div>## Hi there 👋
+</div>
 
