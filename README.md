@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:58a6ff&height=230&section=header&animation=fadeIn&theme=tokyonight" width="100%" alt="Utsav's Banner" />
+
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=700&height=70&lines=Utsav+Thakur" alt="Utsav Thakur" />
 
