@@ -168,9 +168,9 @@ current_focus = {
 
 <div align="center">
 
-<img src="./profile/stats.svg" alt="GitHub Stats" height="165" />
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Utsav-Thakur&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
-<img src="./profile/top-langs.svg" alt="Top Languages" height="165" />
+
 
 </div>
 
