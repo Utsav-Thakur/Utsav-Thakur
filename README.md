@@ -1,202 +1,114 @@
+# Utsav Thakur
 <div align="center">
-Show Image
-
-Show Image
- 
-Show Image
- 
-Show Image
- 
-<img src="https://komarev.com/ghpvc/?username=Utsav-Thakur&style=flat-square&color=58a6ff"/>
-
+<!-- Banner Image / Header Design -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Utsav%20Thakur&fontSize=70&animation=fadeIn&fontAlignY=35&theme=tokyonight" width="100%" alt="Utsav's Banner" />
+[![Profile Views](https://komarev.com/ghpvc/?username=Utsav-Thakur&style=flat-square&color=58a6ff)](https://github.com/Utsav-Thakur)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/utsav-thakur)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:utsavthakur.work@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Web-100000?style=flat-square&logo=nextdotjs&logoColor=white)](https://utsav-thakur-portfolio.vercel.app)
 </div>
-
-Who I am
-
-Data Scientist based in Delhi, India — building end-to-end ML systems, graph intelligence engines, LLM-powered platforms, and recommendation systems that solve real business problems across Financial Services, Logistics, Retail, and Entertainment.
-
-MSc Operational Research · University of Delhi · 2025–2027
-
-
-🏆 Top 25% @ IIT Guwahati Winter Consulting 2025
-☁️ Oracle Cloud Infrastructure AI Foundations Certified
-🌐 Japanese Language Certification — St. Stephen's College, University of Delhi
-📍 Delhi, India  |  🟢 Open to DS / Data & AI Internships 2026
-
-
-
-What I've Built
-
-
-0.941 ROC-AUC · ₹63.8Cr revenue impact · 61,000 titles · 144,867 trips analyzed
-I don't just study ML — I ship it.
-
-
-
-
-🏦 AlphaForge — Financial Intelligence Platform
-
-XGBoost · SHAP · PyTorch Transformer · Markowitz · RAG · FAISS · React
-
-5-module financial intelligence system built for JPMorgan/Goldman Sachs-standard analytics.
-
-
-Credit Risk: XGBoost scorecard on 200K LendingClub loans · ROC-AUC 0.812 · KS Stat 0.47 · SHAP waterfall explaining every prediction to regulators
-Price Forecaster: Transformer (PyTorch) on Yahoo Finance data — AAPL, NVDA, RELIANCE.NS, S&P500, NIFTY50 · outperforms LSTM/ARIMA on MAPE
-Portfolio Lab: Markowitz + Monte Carlo (5,000 simulations) · efficient frontier · Sharpe maximization on S&P500 + NIFTY50 portfolios
-Live Markets: Real-time market feed with VIX overlay, FRED macro indicators, live ticker strip
-Forge AI: Zero-API RAG assistant on SEC EDGAR 10-K/10-Q filings (Apple, Microsoft, NVIDIA, JPMorgan, Goldman Sachs) — FAISS + sentence-transformers, no OpenAI key needed
-
-
-XGBoost SHAP PyTorch FAISS sentence-transformers yfinance FRED SEC EDGAR React FastAPI
-
-
-👑 BrandIQ — D2C Customer Intelligence Platform
-
-Python · SQL · React · JARVIS AI · Live Data Entry
-
-SQL-driven customer intelligence system for a D2C fashion brand — 3,900 customers, 50 US states.
-
-
-Engineered 12 features from scratch including 2 competing loyalty definitions — tested both, argued for winner on statistical correlation
-SQL segmentation: 8 business queries answering loyalty vs promo-dependency, geographic opportunity, category journey, retention restructuring
-JARVIS chatbot (zero API) — answers 15 question categories about customer data using pure JavaScript analytics on live DataContext
-Live data entry: CSV upload + manual form entry → all charts re-compute instantly in React Context
-Result: identified 1,677 promo-trap customers (43% of base) at margin risk, produced 3-phase promotional sunset plan
-
-
-Python Pandas SQL SQLite React Recharts Tailwind Zero-API AI
-
-
-✈️ LoyaltyIQ — Airline Loyalty Analytics System
-
-XGBoost · KMeans · React · Claude AI (SSE Streaming)
-
-End-to-end loyalty analytics on 16,737 real Canadian airline members (2012–2018).
-
-
-Churn prediction: ROC-AUC 0.941 · F1 0.799 · Precision 0.982 — XGBoost with 16 engineered features, no data leakage (June 2018 cutoff)
-CLV interrogation: proved CLV misleads for 50.7% of members (4,228 overestimated + 4,147 underestimated) using forward-scoring composite
-KMeans segmentation (k=3): High-Value Loyalists (4.2% churn) · Dormant Members (100% churn · $8,611 avg CLV) · At-Risk Regulars (30.5%)
-AI email writer: Claude API streaming via FastAPI SSE → personalised retention emails per member
-Dashboard: 10 pages, non-technical marketing manager can identify who needs attention in 4 clicks without reading a manual
-
-
-XGBoost KMeans Claude API FastAPI React Recharts Tailwind Python SQL
-
-
-🚚 DeliveryIQ — Graph-Based Logistics Network Intelligence
-
-NetworkX · XGBoost · Folium · React · Zero-API AI
-
-Graph intelligence system for 144,867 Delhivery trip segments across 1,508 facilities.
-
-
-Built directed weighted graph: 1,508 nodes · 2,847 edges · edge weights = median delay ratio per corridor × route type × time of day
-Graph features account for 71.5% of XGBoost model importance — validating the graph-first hypothesis
-Betweenness centrality × SLA breach composite → ranked top 5 bottleneck hubs responsible for 41% of all network delays
-Quantified ₹63.8Cr annual revenue impact in a 6-page consulting strategy memo to Head of Network Operations
-Interactive Leaflet maps: N=10 critical hubs map + N=1,508 full network map + delay heatmap (Folium)
-Zero-API AI: 5 pre-computed JSON files (rule-based + ML) replace all API calls at runtime
-
-
-NetworkX XGBoost Folium React Recharts FastAPI Python Graph ML
-
-
-🎬 Lumiora — Worldwide Hybrid Recommendation System
-
-Content-Based · SVD · NeuMF (PyTorch) · TMDb · MyAnimeList · MovieLens
-
-Netflix-style hybrid recommendation system covering 61,000 titles across 80+ countries.
-
-
-6 content types: Movies · TV Series · Anime (Shounen/Shoujo/Seinen/Josei) · K-Drama · Documentaries · Stand-up Comedy
-3 recommendation models benchmarked independently then hybridized:
-
-Content-Based (cosine similarity on 150-feature matrix): Precision@10 = 0.31, Coverage = 0.68
-SVD Collaborative Filtering (Surprise, 4.8M ratings): RMSE = 1.12, Precision@10 = 0.38
-NeuMF Neural CF (PyTorch, GMF + MLP): RMSE = 1.08, Precision@10 = 0.41
-Hybrid: Precision@10 = 0.47, NDCG@10 = 0.44 (best across all metrics)
-
-
-
-Real datasets: TMDb 45K (real poster URLs via CDN) · MyAnimeList 2023 · MovieLens 25M · Netflix Shows · Korean Drama · Indian Movies IMDb
-Cold-start handling: content-based weight = 0.80 for <5 ratings → relevant Day-1 recommendations
-Countries: USA · Japan · South Korea · China · India · Russia · France + 73 more
-
-
-PyTorch scikit-learn Surprise FAISS React Recharts Python Hybrid Recommender
-
-
-🛒 LoyaltyIQ Airline + LendIQ Digital Lending
-
-XGBoost · Synthetic Data · Credit Policy · CRO Report
-
-
-LendIQ: Generated 5,000-row synthetic digital lending dataset (correlated defaults, channels, behavioral signals) · XGBoost credit scorecard · Early Warning System (Green/Amber/Red) · 6-page Credit Policy Report addressed to fictional CRO · Streamlit dashboard
-TSP/QIGWO Optimizer: Quantum-Inspired Grey Wolf Optimizer in Python · 10-city route optimization · 20% cost reduction vs random baseline · Interactive Leaflet map + HTML dashboard
-
-
-
-What I'm building now
-
-pythoncurrent = {
-    "AlphaForge"   : "Forge AI zero-API RAG on SEC EDGAR → deploying to GitHub Pages",
-    "LoyaltyIQ"    : "Claude AI streaming emails → production FastAPI deployment",
-    "DeliveryIQ"   : "Graph bottleneck dashboard → Vercel live demo",
-    "Lumiora"      : "TMDb poster integration → worldwide content explorer",
-    "Learning"     : "Japanese · Cloud Deployment · Advanced LLMs · Graph Neural Networks"
+---
+### 🚀 Who I Am
+I am a **Data Scientist & AI Systems Builder** based in Delhi, India. I specialize in building end-to-end machine learning systems, graph intelligence engines, LLM-powered platforms, and hybrid recommendation engines. I focus on translating complex algorithmic concepts into high-impact business solutions across Financial Services, Logistics, Retail, and Entertainment.
+*   🎓 **MSc Operational Research** · University of Delhi (2025–2027)
+*   🏆 **Top 25%** @ IIT Guwahati Winter Consulting 2025
+*   ☁️ **Oracle Cloud Infrastructure** AI Foundations Certified
+*   🌐 **Japanese Language Certification** — St. Stephen's College, University of Delhi (2025–2026)
+*   📍 Delhi, India | 🟢 **Open to Data Science / Data & AI Internships 2026**
+---
+### 📊 Impact & Metrics
+<div align="center">
+| 🎯 Churn Prediction | 📈 Revenue Impact | 🎬 Personalization | 🚚 Logistics Scale |
+| :---: | :---: | :---: | :---: |
+| **0.941 ROC-AUC** | **₹63.8Cr Quantified** | **61,000 Titles** | **144,867 Trips** |
+| XGBoost on Airline Data | Delhivery Network Analysis | Hybrid Recommendation Engine | NetworkX Route Optimization |
+</div>
+> **"I don't just study ML — I ship it."** 🇮🇳
+---
+### 🛠️ Tech Stack & Tools
+<div align="center">
+| Category | Technologies / Tools |
+| :--- | :--- |
+| **Languages** | ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![SQL](https://img.shields.io/badge/sql-CC2927?style=flat-square&logo=postgresql&logoColor=white) ![C++](https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![R](https://img.shields.io/badge/r-276DC3?style=flat-square&logo=r&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white) |
+| **Data Science & ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-100000?style=flat-square&logo=xgboost&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white) ![NetworkX](https://img.shields.io/badge/NetworkX-0055ff?style=flat-square&logo=python&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat-square&logo=scipy&logoColor=white) |
+| **Vector DB & Search** | ![FAISS](https://img.shields.io/badge/FAISS-blue?style=flat-square) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white) |
+| **Web & API** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361dafb) ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+| **DevOps & Tools** | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white) ![OCI](https://img.shields.io/badge/Oracle_OCI-F80000?style=flat-square&logo=oracle&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+</div>
+---
+### 🚀 What I'm Building Now
+```python
+current_focus = {
+    "AlphaForge" : "Deploying Forge AI (zero-API RAG on SEC EDGAR) to GitHub Pages",
+    "LoyaltyIQ"  : "Deploying production FastAPI server for Claude AI streaming emails",
+    "DeliveryIQ" : "Publishing Vercel live demo for graph-based bottleneck dashboard",
+    "Lumiora"    : "Integrating TMDb API for worldwide content discovery & poster render",
+    "Learning"   : "GNNs (Graph Neural Networks), Advanced LLM Finetuning, OCI Deployment & Japanese N5"
 }
+📂 Featured Projects
+🏦 1. AlphaForge — Financial Intelligence Platform
+JPMorgan/Goldman Sachs-standard analytics system covering credit, forecasting, and asset management.
+
+Credit Risk Engine: Trained an XGBoost scorecard on 200K LendingClub loans. Achieved ROC-AUC of 0.812 and KS Stat of 0.47. Configured local TreeSHAP explanation models to show regulator-compliant waterfall feature attributions for individual decisions.
+Price Forecaster: Built a custom PyTorch Transformer on Yahoo Finance data (AAPL, NVDA, RELIANCE.NS, S&P 500, Nifty 50) outperforming standard LSTM/ARIMA baselines on MAPE.
+Portfolio Lab: Implemented Markowitz Mean-Variance optimization alongside a 5,000-run Monte Carlo simulation engine to chart efficient frontiers and maximize Sharpe ratios.
+Forge AI: Created a local, zero-API RAG assistant for SEC EDGAR 10-K/10-Q filing interrogation using FAISS and sentence-transformers (runs completely locally with no paid API keys required).
+Tech Stack: React, FastAPI, XGBoost, PyTorch (Transformers), FAISS, sentence-transformers, yfinance, SHAP
+👑 2. BrandIQ — D2C Customer Intelligence Platform
+SQL-driven analytics and segments profiling 3,900 customers across 50 US states to identify promotional trap risks.
+
+Feature Engineering: Developed 12 custom behavioral features, comparing competing loyalty definitions to optimize statistical correlation with repeat purchase behavior.
+SQL Analytics Engine: Crafted 8 production business queries to map category journeys, promo-dependence, and retention opportunities.
+JARVIS Chatbot: A local, client-side analytical chatbot (zero API cost) that answers 15 customer query categories using pure JS client-side processing over dynamic DataContext.
+Business Impact: Identified 1,677 promo-trap customers (43% of the customer base) at immediate margin risk, providing a 3-phase strategic promo sunset plan.
+Tech Stack: Python, Pandas, SQLite, React, Recharts, TailwindCSS
+✈️ 3. LoyaltyIQ — Airline Loyalty Analytics System
+End-to-end loyalty, segmentation, and automated retention dashboard for 16,737 airline members.
+
+Churn Prediction: Engineered an XGBoost model with 16 features, strictly preventing data leakage using a June 2018 temporal cutoff. Achieved ROC-AUC of 0.941, Precision of 0.982, and F1-Score of 0.799.
+CLV Interrogation: Proved that standard CLV over/underestimates value for 50.7% of members (4,228 overestimated, 4,147 underestimated) using forward-scoring composite metrics.
+KMeans Customer Segmentation: Categorized members into three distinct personas: High-Value Loyalists (4.2% churn), Dormant Members (100% churn, $8.6k avg CLV), and At-Risk Regulars (30.5% churn).
+Claude AI Retention Engine: Integrated FastAPI Server-Sent Events (SSE) to stream personalized email campaigns generated by Claude per segment.
+Tech Stack: Python, XGBoost, scikit-learn (KMeans), FastAPI, Claude API, React, TailwindCSS
+🚚 4. DeliveryIQ — Graph-Based Logistics Network Intelligence
+Logistics network analysis resolving bottleneck delay models on 144,867 trip segments across 1,508 facilities.
+
+Directed Weighted Graph: Built a NetworkX graph with 1,508 nodes and 2,847 edges, weighting edges dynamically based on median delay ratios, corridor route types, and hours of the day.
+Feature Verification: Proved graph centrality features account for 71.5% of XGBoost model importance, validating the graph-first delay prediction hypothesis.
+Bottleneck Hub Analysis: Used Betweenness Centrality metrics to locate the top 5 bottleneck hubs responsible for 41% of all network delays.
+Financial Impact: Quantified ₹63.8Cr in annual savings potential through a 6-page operations strategy memo.
+Interactive Maps: Plotted Leaflet heatmaps and interactive networks using Folium.
+Tech Stack: Python, NetworkX, XGBoost, Folium, FastAPI, React, Recharts
+🎬 5. Lumiora — Worldwide Hybrid Recommendation System
+Netflix-style recommendation engine covering 61,000 titles across 80+ countries.
+
+Hybrid Architecture: Benchmark and ensemble three distinct models:
+Content-Based Filtering: Cosine similarity over 150-feature matrices (Precision@10: 0.31, Coverage: 0.68)
+Collaborative Filtering: SVD via Surprise on 4.8M ratings (RMSE: 1.12, Precision@10: 0.38)
+Neural Collaborative Filtering (NeuMF): PyTorch GMF + MLP network (RMSE: 1.08, Precision@10: 0.41)
+Hybrid Blend: Achieved top performance (Precision@10: 0.47, NDCG@10: 0.44).
+Datasets: Scaled across IMDb, TMDb (45K poster URLs via CDN), MovieLens (25M), and MyAnimeList (2023).
+Cold-Start Mitigation: Implemented automatic switching to high-weight content recommendations (0.80 weight) for users with less than 5 ratings.
+Tech Stack: Python, PyTorch, Surprise, scikit-learn, FAISS, React
+🛒 6. LendIQ + TSP Optimization Suite
+Digital credit scoring and metaheuristic route optimization.
+
+LendIQ: Generated a correlated 5,000-row synthetic lending dataset. Built an XGBoost credit scorecard and Early Warning System dashboard, delivering a comprehensive Credit Policy Report.
+Quantum-Inspired Grey Wolf Optimizer (QIGWO): Optimized a 10-city Traveling Salesman Problem in Python, yielding a 20% cost reduction compared to random search baselines. Includes an interactive Leaflet mapping page.
+Tech Stack: Python, XGBoost, QIGWO, Streamlit, Leaflet
+🏆 Certifications & Achievements
+Achievement	Organisation	Year
+Top 25% — Winter Consulting (Business Strategy & Analytics)	IIT Guwahati	2025
+Oracle Cloud Infrastructure AI Foundations Certified	Oracle	2025
+Japanese Language Certification (In Progress)	St. Stephen's College, University of Delhi	2025–2026
+📈 GitHub Stats
+
+🤝 Let's Connect!
+Open to Data Science, Machine Learning, and Data/AI Consulting Internships (2026).
 
 
-Tools I use
 
-<div align="center">
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
+📬 Email Me
+ • 💼 LinkedIn • 🌐 Personal Website
 
-</div>
-
-GitHub Stats
-
-<div align="center">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Utsav-Thakur&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Utsav-Thakur&layout=compact&theme=tokyonight&hide_border=true"/>
-</div>
-<div align="center">
-Show Image
-
-</div>
-
-Certifications & Achievements
-
-AchievementOrganisationYear🏆 Top 25% — Winter Consulting (Business Strategy & Analytics)IIT Guwahati2025☁️ Oracle Cloud Infrastructure AI FoundationsOracle2025🌐 Japanese Language Certification (in progress)St. Stephen's College, University of Delhi2025–2026
-
-
-<div align="center">
-0.941 ROC-AUC · ₹63.8Cr revenue impact quantified · 61,000 titles recommended · 144,867 trips analyzed
-
-I have receipts. 🇮🇳
-
-Show Image
- 
-Show Image
- 
-Show Image
-
-Open to Data Science & Data/AI Consultant internships 2026
-
-</div>
+```
